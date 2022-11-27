@@ -37,17 +37,14 @@ ul > li::marker {
 }
 
 ol > li > a,
-ul > li > a {
+ul > li > a,
+p > a {
   text-decoration: none;
 }
 
 ol > li > a:hover,
 ul > li > a:hover {
   color: white;
-}
-
-.git-intro {
-  width: 60%;
 }
 
 .git-toc {
