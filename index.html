@@ -293,9 +293,124 @@
           <img id="#caring" class="reposi" src="./images/rename_from.png" alt="...">
           <li> Now File from Remote Repository is also renamed. </li>
           <img id="#caring" class="reposi" src="./images/rename_from_remote.png" alt="...">
-
           </ul>
-      </div>
+          </div>
+
+                <div id="branching">
+                    <h3>8. BRANCHING</h3>
+                    <h5>What is Branching?</h5>
+                    <span>
+                    A branch in Git is simply a lightweight movable pointer to one of these commits. The default
+                    branch name in Git is master . As you start making commits, you're given a master branch that
+                    points to the last commit you made. Every time you commit, the master branch pointer moves
+                    forward automatically.
+                    </span>
+                    <ul>
+                        <li>
+                        Branches allow you to work on different parts of a project without impacting the main branch.
+                        </li>
+                        <li>
+                        When the work is complete, a branch can be merged with the main project.
+                        </li>
+                        <li>
+                        You can even switch between branches and work on different projects without them interfering
+                        with each other.
+                        </li>
+                    </ul>
+
+                    <h3 id="b1">How to Make a new Branch.</h3>
+                    <ul>
+                        <li>Run the following Command On the terminal.</li>
+                        <p>git branch branchname</p>
+                        <li>
+                        Run the following command to see all branches.
+                        </li>
+                        <p>git branch</p>
+                        <img id="#caring" class="reposi" src="./images/branch1.png" alt="...">
+                        <li> The * symbol will show the current branch in which you are currenty. </li>
+                    </ul>
+
+
+
+                    <br><br><br>
+                    <h3 id="b3">Switching to other Branches.</h3>
+                    <ul>
+                        <li>
+                            Following command is used to switch to the other branch.
+                            <br><b>git checkout branch2</b>
+                            <br><br><img id="#carimg" src="./images/branch3.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                            <br>
+
+                        </li>
+                        <li>New branch will contain the same files as Master Branch.
+                            <br><br><img id="#carimg" src="./images/branch6.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                            <br>
+                        </li>
+
+
+                    </ul>
+
+                    <br><br><br>
+                    <h3 id="b4">Updating Files in New Branch.</h3>
+                    <ul>
+                        <li>Checkout to new Branch.</li>
+                        <li>Update Data.</li>
+                        <li>Commit changes. All the changes will be commit to new branch not master branch.</li>
+                        <li>Master branch data will remain Same.</li>
+
+                        <br><br><img id="#carimg" src="./images/branch4.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br>
+
+                        <br><br><img id="#carimg" src="./images/branch5.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br>
+
+                        <br><br><img id="#carimg" src="./images/branch7.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br>
+
+                        <br><br><img id="#carimg" src="./images/branch8.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br>
+
+                    </ul>
+
+                    <br><br><br>
+                    <h3 id="b5">9. Comparing Branches</h3>
+                    <ul>
+                        <li>Yoc can Compare files in Branches</li>
+                        <li>When you are in new branch and new branch file/files are updated.
+                            You cannot save the file. IDE will ask you to compare and resolve it.
+                            as both branches are different somwhere.
+                        </li>
+                        <br><br><img id="#carimg" src="./images/branch9.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br>
+                        <br><br><img id="#carimg" src="./images/branch10.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br>
+
+                    </ul>
+
+                    <br><br><br>
+                    <h3 id="b6">Deleting a branch</h3>
+                    <ul>
+                        <li>To delete a branch use the following command.
+                            <br><b>Git branch –d branchname</b>
+                            <br><br><img id="#carimg" src="./images/d1.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                            <br>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+
+
     </div>
   </body>
 </html>
