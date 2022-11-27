@@ -25,7 +25,11 @@ h4 {
 
 #repo,
 #account,
-#publicrepo {
+#publicrepo,
+#privaterepo,
+#privateToPublic,
+#cloning,
+#adding {
   margin-top: 25px;
 }
 
@@ -57,5 +61,8 @@ ul > li > a:hover {
 }
 
 .reposi {
-  padding: 20px 0px;
+  padding: 15px 0px;
+}
+p {
+  padding-left: 20px;
 }
