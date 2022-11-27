@@ -22,6 +22,11 @@ h4 {
   color: #213962;
 }
 
+#repo,
+#account {
+  margin-top: 25px;
+}
+
 ol > li::marker {
   font-weight: bold;
 }
