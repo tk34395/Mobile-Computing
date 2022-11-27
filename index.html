@@ -1,300 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>GitHub Demo</title>
-      <link rel="stylesheet" href="index.css">
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-   </head>
-   </head>
-   <body>
-      <!-- Navbar -->
-      <header class="nav">
-         <nav class="navbar ">
-            <div class="container-fluid"> &#160; &#160; &#160; &#160; <a class="navbar-brand  nav-title" href="index.html">
-               <img src="./images/logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-center nav-title"> &#160; &#160;GitHub Demo </a>
-            </div>
-         </nav>
-      </header>
-      <!-- What is git and github -->
-      <div class="web-body">
-         <div class="git-intro-toc">
-            <div class="git-intro">
-               <h2> Git and GitHub </h2>
-               <h4>What is Git?</h4>
-               <ol>
-                  <li> Git is a version control system. </li>
-                  <li> Git helps you keep track of code changes. </li>
-                  <li> Git is used to collaborate on code. </li>
-               </ol>
-               <h4>What is GITHUB?</h4>
-               <ol>
-                  <li> GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. This tutorial teaches you GitHub essentials like repositories, branches, commits, and pull requests.</li>
-                  <li>GitHub is an increasingly popular programming resource used for code sharing. It's a social networking site for programmers that many companies and organizations use to facilitate project management and collaboration.</li>
-               </ol>
-            </div>
-            <div class="git-toc">
-               <h3> Table of Contents: </h3>
-               <ol>
-                  <li>
-                     <a href="#account">How To Create GitHub Account.</a>
-                  </li>
-                  <li>
-                     <a href="#repo">What are Repositories</a>
-                     <ul>
-                        <li>
-                           <a href="#publicrepo">How to Create Public Repository.</a>
-                        </li>
-                        <li>
-                           <a href="#privaterepo">How to Create Private Repository.</a>
-                        </li>
-                        <li>
-                           <a href="#privateToPublic">How to Make Private Repository to Public Repository. </a>
-                        </li>
-                     </ul>
-                  </li>
-                  <li>
-                     <a href="#adding">How to initialize, add, commit and check status of files on GitHub.</a>
-                  </li>
-                  <li>
-                     <a href="#pushing">Setting Remote URL and pushing Files to github.</a>
-                  </li>
-                  <li>
-                     <a href="#renaming">Renaming a file or folder.</a>
-                  </li>
-                  <li>
-                     <a href="#deleting">Deleting a file or folder.</a>
-                  </li>
-                  <li>
-                     <a href="#livepages"> Making Website Live on GitHUB.</a>
-                  </li>
-                  <li>
-                     <a href="#cloning">Cloning a Repository.</a>
-                  </li>
-                  <li>
-                     <a href="#branching">Branching.</a>
-                  </li>
-                  <li>
-                     <a href="#merging">Merging and Merge Conflict.</a>
-                  </li>
-                  <li>
-                     <a href="#pull">Pulling a Repository from GitHub.</a>
-                  </li>
-                  <li>
-                     <a href="#fork">Forking a Repository</a>
-                  </li>
-               </ol>
-            </div>
-         </div>
-         <div id="account">
-            <h4>How to create Account of GitHub</h4>
-            <ul>
-               <li>Go to <a href="https://github.com/" target="_blank">GitHub</a></li>
-               <li>Click on SignUp button.</li>
-               <li>Enter Required information.</li>
-               <li>Click on create Account.</li>
-               <li>Enter code sent on your email.</li>
-               <li>Your Account will be created.</li>
-            </ul>
-            <img id="#caring" src="./images/signup.png" alt="...">
-         </div>
-         <div id="repo">
-            <h4>What are Repositories?</h4>
-            <ul>
-               <li>A GitHub repository can be used to store development project.</li>
-               <li>A GitHub repository keeps track of changes in file</li>
-               <li>It can contain folders and any type of files (HTML, CSS,
-                  JavaScript, CPP, Documents, Data, Images).
-               </li>
-               <li>A GitHub repository should also include a licence file and
-                  a README file about the project.
-               </li>
-               <li>A GitHub repository can also be used to
-                  store ideas, or any resources that you want to share.
-               </li>
-               </li>
-            </ul>
-         </div>
-         <div id="publicrepo">
-            <h4>Creating Public Repository</h4>
-            <ul>
-               <li>Click on your profile icon.</li>
-               <li>Go to your Repositories.</li>
-               <img id="#caring" class="reposi" src="./images/profile_repo.png" alt="...">
-               <li>Click on New Button.</li>
-               <img id="#caring" class="reposi" src="./images/create_repo.png" alt="...">
-               <li>Enter Repository name and description.</li>
-               <li>Select Public.</li>
-               <img id="#caring" class="reposi" src="./images/public_repo.png" alt="...">
-               <li>Click on Create Repository.</li>
-               <img id="#caring" class="reposi" src="./images/create_public_repo.png" alt="...">
-               <li>Public Repository will get created.</li>
-            </ul>
-         </div>
-         <div id="privaterepo">
-            <h4>Creating Private Repository</h4>
-            <ul>
-               <li>Click on your profile icon.</li>
-               <li>Go to your Repositories.</li>
-               <img id="#caring" class="reposi" src="./images/profile_repo.png" alt="...">
-               <li>Click on New Button.</li>
-               <img id="#caring" class="reposi" src="./images/create_repo.png" alt="...">
-               <li>Enter Repository name and description.</li>
-               <li>Select Private.</li>
-               <img id="#caring" class="reposi" src="./images/private_repo.png" alt="...">
-               <li>Click on Create Repository.</li>
-               <img id="#caring" class="reposi" src="./images/create_public_repo.png" alt="...">
-               <li>Private Repository will get created.</li>
-            </ul>
-         </div>
-         <div id="privateToPublic">
-            <h4>How to Make Private Repository to Public Repository</h4>
-            <ul>
-               <li>Open you Repository.</li>
-               <li>Go to Settings.</li>
-               <img id="#caring" class="reposi" src="./images/private_repo_settings.png" alt="...">
-               <li>Click on New Button.</li>
-               <img id="#caring" class="reposi" src="./images/create_repo.png" alt="...">
-               <li>Scroll to bottom till ‘‘Danger Zone’’..</li>
-               <li>Click on Change Visibility.</li>
-               <li>Click on Change to public.</li>
-               <img id="#caring" class="reposi" src="./images/danger_zone.png" alt="...">
-               <li>Click on I want to make this repository public.</li>
-               <img id="#caring" class="reposi" src="./images/make_public.png" alt="...">
-               <li>Click on I have read and understand these effects</li>
-               <img id="#caring" class="reposi" src="./images/terms_public.png" alt="...">
-               <li>Click on Make this repository public</li>
-               <img id="#caring" class="reposi" src="./images/make_this_public.png" alt="...">
-               <li>Repository will become public.</li>
-            </ul>
-         </div>
-         <div id="cloning">
-            <h3>Cloning a Repository</h3>
-            <h5>What does it means?</h5>
-            <p>Cloning a repository pulls down a full copy of all the repository data that <a href="https://github.com/" target="_blank">GitHub</a></li> has at
-               that point in time, including all versions of every file and folder for the project. You can
-               push your changes to the remote repository on GitHub.com, or pull other people's changes from
-               GitHub.com.
-            </p>
-            <p>Command:  git clone url(url of public repository you want to clone)</p>
-            <h5>Steps to clone a Repository:</h5>
-            <ul>
-               <li>Go to any Public Repository.</li>
-               <li>Click on Code.</li>
-               <li>Copy the URL.</li>
-               <img id="#caring" class="reposi" src="./images/clone_repo.png" alt="...">
-               <li>Open the folder in terminal where you want to make Clone.</li>
-               <img id="#caring" class="reposi" src="./images/git_clone.png" alt="...">
-               <li>Repository will get Cloned in your directory.</li>
-               <img id="#caring" class="reposi" src="./images/cloned_repo.png" alt="...">                        
-            </ul>
-         </div>
-         <div id="cloning">
-            <h3>Cloning a Repository</h3>
-            <h5>What does it means?</h5>
-            <p>Cloning a repository pulls down a full copy of all the repository data that <a href="https://github.com/" target="_blank">GitHub</a></li> has at
-               that point in time, including all versions of every file and folder for the project. You can
-               push your changes to the remote repository on GitHub.com, or pull other people's changes from
-               GitHub.com.
-            </p>
-            <p>Command:  git clone url(url of public repository you want to clone)</p>
-            <h5>Steps to clone a Repository:</h5>
-            <ul>
-               <li>Go to any Public Repository.</li>
-               <li>Click on Code.</li>
-               <li>Copy the URL.</li>
-               <img id="#caring" class="reposi" src="./images/clone_repo.png" alt="...">
-               <li>Open the folder in terminal where you want to make Clone.</li>
-               <img id="#caring" class="reposi" src="./images/git_clone.png" alt="...">
-               <li>Repository will get Cloned in your directory.</li>
-               <img id="#caring" class="reposi" src="./images/cloned_repo.png" alt="...">                        
-            </ul>
-         </div>
-         <div id="adding">
-            <h3>Initializing, Adding, Commit and check Status of files on GitHub</h3>
-            <h5>Creating Sample File:</h5>
-            <ul>
-               <li>Create a file "index.html".</li>
-               <li>Write basic HTML code in it.</li>
-               <img id="#caring" class="reposi" src="./images/index.png" alt="...">
-            </ul>
-            <h5>Initializing Repository:</h5>
-            <ul>
-               <li>First we initialize our repository.</li>
-               <p>Command:  git init</p>
-               <img id="#caring" class="reposi" src="./images/git_init.png" alt="...">
-               <li>.git folder will get created in our directory which is hidden. You can view it by changing settings to display all files.</li>
-            </ul>
-            <h5>Checking git status:</h5>
-            <ul>
-               <li>You can check git status by this command:</li>
-               <p>git status</p>
-               <img id="#caring" class="reposi" src="./images/git_status.png" alt="...">
-            </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Demo</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </head>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="nav">
+      <nav class="navbar ">
+        <div class="container-fluid"> &#160; &#160; &#160; &#160; <a class="navbar-brand  nav-title" href="index.html">
+            <img src="./images/logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-center nav-title"> &#160; &#160;GitHub Demo </a>
+        </div>
+      </nav>
+    </header>
+    <!-- What is git and github -->
 
-            <h3>Adding Files:</h3>
-            <ul>
-               <li>
-                  Initially the file will be an untracked file.
-               </li>
-               <li>When we add the file it will go to the stagged area.</li>
-               <li>
-                  We can add the files/directories by using following methods:
-                  <ul>
-                     <li>By using name of file/folder: </li>
-                     <p>Commmand : git add practice.html </p>
-                     <li>By using . symbol to add all files/folders: </li>
-                     <p> Command : git add .</p>
-                     <li>By using * symbol to add all files based on the specified extension:</li>
-                     <p> Command : git add *.html </p>
-                     <img id="#caring" class="reposi" src="./images/git_add_..png" alt="...">
-                     </ul>
-                     </li>
-            </ul>
-
-            <h3>Commiting added files:</h3>
-<ul>
-<li>You can commit the files in two ways:
-<ul>
-                                <li>Commits with a one-line message:</li>
-                                <p>git commit -m "Message"</p>
-                                <li>It opens the editor to type a message:</li>
-                                <p>git commit</p>
-                                <img id="#caring" class="reposi" src="./images/git_commit.png" alt="...">
-                            </ul>
-</li>
-                            </ul>
-
-
-                            <h3>Setting Remote URL:</h3>
-<ul>
-                                <li>Set the remote url where your code will push.</li>
-                                <li>That URL could be your repository on GitHub, or another user's fork, or even on a completely
-                            different server.</li>
-                            <img id="#caring" class="reposi" src="./images/git_remote_url.png" alt="...">
-                            <p>Command:  git remote add origin REMOTE_URL</p>
-                            <img id="#caring" class="reposi" src="./images/remote_url.png" alt="...">
-
-                              </ul>
-
-                              <h3>Pushing to online Repository:</h3>
-<ul>
-                       <li>
-                            You have to specify branch where you want to push your files/folders.
-                            </li>
-                            <li>If you want to push in main branch type following command:
-                            </li>
-                            <p>git push -u origin main</p>
-                            <img id="#caring" class="reposi" src="./images/git_push_repo.png" alt="...">
-
-                              </ul>
-
-
-
-                            </div>
+    <div class="web-body">
+      <div class="git-intro-toc">
+        <div class="git-intro">
+          <h2> Git and GitHub </h2>
+          <h4>What is Git?</h4>
+          <ol>
+            <li> Git is a version control system. </li>
+            <li> Git helps you keep track of code changes. </li>
+            <li> Git is used to collaborate on code. </li>
+          </ol>
+          <h4>What is GITHUB?</h4>
+          <ol>
+            <li> GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. This tutorial teaches you GitHub essentials like repositories, branches, commits, and pull requests.</li>
+            <li>GitHub is an increasingly popular programming resource used for code sharing. It's a social networking site for programmers that many companies and organizations use to facilitate project management and collaboration.</li>
+          </ol>
+        </div>
+        <div class="git-toc">
+          <h3> Table of Contents: </h3>
+          <ol>
+            <li>
+              <a href="#account">How To Create GitHub Account.</a>
+            </li>
+            <li>
+              <a href="#repo">What are Repositories</a>
+              <ul>
+                <li>
+                  <a href="#publicrepo">How to Create Public Repository.</a>
+                </li>
+                <li>
+                  <a href="#privaterepo">How to Create Private Repository.</a>
+                </li>
+                <li>
+                  <a href="#privateToPublic">How to Make Private Repository to Public Repository. </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#adding">How to initialize, add, commit and check status of files on GitHub.</a>
+            </li>
+            <li>
+              <a href="#pushing">Setting Remote URL and pushing Files to github.</a>
+            </li>
+            <li>
+              <a href="#renaming">Renaming a file or folder.</a>
+            </li>
+            <li>
+              <a href="#deleting">Deleting a file or folder.</a>
+            </li>
+            <li>
+              <a href="#livepages"> Making Website Live on GitHUB.</a>
+            </li>
+            <li>
+              <a href="#cloning">Cloning a Repository.</a>
+            </li>
+            <li>
+              <a href="#branching">Branching.</a>
+            </li>
+            <li>
+              <a href="#merging">Merging and Merge Conflict.</a>
+            </li>
+            <li>
+              <a href="#pull">Pulling a Repository from GitHub.</a>
+            </li>
+            <li>
+              <a href="#fork">Forking a Repository</a>
+            </li>
+          </ol>
+        </div>
       </div>
-   </body>
+      <div id="account">
+        <h4>How to create Account of GitHub</h4>
+        <ul>
+          <li>Go to <a href="https://github.com/" target="_blank">GitHub</a>
+          </li>
+          <li>Click on SignUp button.</li>
+          <li>Enter Required information.</li>
+          <li>Click on create Account.</li>
+          <li>Enter code sent on your email.</li>
+          <li>Your Account will be created.</li>
+        </ul>
+        <img id="#caring" src="./images/signup.png" alt="...">
+      </div>
+      <div id="repo">
+        <h4>What are Repositories?</h4>
+        <ul>
+          <li>A GitHub repository can be used to store development project.</li>
+          <li>A GitHub repository keeps track of changes in file</li>
+          <li>It can contain folders and any type of files (HTML, CSS, JavaScript, CPP, Documents, Data, Images). </li>
+          <li>A GitHub repository should also include a licence file and a README file about the project. </li>
+          <li>A GitHub repository can also be used to store ideas, or any resources that you want to share. </li>
+          </li>
+        </ul>
+      </div>
+      <div id="publicrepo">
+        <h4>Creating Public Repository</h4>
+        <ul>
+          <li>Click on your profile icon.</li>
+          <li>Go to your Repositories.</li>
+          <img id="#caring" class="reposi" src="./images/profile_repo.png" alt="...">
+          <li>Click on New Button.</li>
+          <img id="#caring" class="reposi" src="./images/create_repo.png" alt="...">
+          <li>Enter Repository name and description.</li>
+          <li>Select Public.</li>
+          <img id="#caring" class="reposi" src="./images/public_repo.png" alt="...">
+          <li>Click on Create Repository.</li>
+          <img id="#caring" class="reposi" src="./images/create_public_repo.png" alt="...">
+          <li>Public Repository will get created.</li>
+        </ul>
+      </div>
+      <div id="privaterepo">
+        <h4>Creating Private Repository</h4>
+        <ul>
+          <li>Click on your profile icon.</li>
+          <li>Go to your Repositories.</li>
+          <img id="#caring" class="reposi" src="./images/profile_repo.png" alt="...">
+          <li>Click on New Button.</li>
+          <img id="#caring" class="reposi" src="./images/create_repo.png" alt="...">
+          <li>Enter Repository name and description.</li>
+          <li>Select Private.</li>
+          <img id="#caring" class="reposi" src="./images/private_repo.png" alt="...">
+          <li>Click on Create Repository.</li>
+          <img id="#caring" class="reposi" src="./images/create_public_repo.png" alt="...">
+          <li>Private Repository will get created.</li>
+        </ul>
+      </div>
+      <div id="privateToPublic">
+        <h4>How to Make Private Repository to Public Repository</h4>
+        <ul>
+          <li>Open you Repository.</li>
+          <li>Go to Settings.</li>
+          <img id="#caring" class="reposi" src="./images/private_repo_settings.png" alt="...">
+          <li>Click on New Button.</li>
+          <img id="#caring" class="reposi" src="./images/create_repo.png" alt="...">
+          <li>Scroll to bottom till ‘‘Danger Zone’’..</li>
+          <li>Click on Change Visibility.</li>
+          <li>Click on Change to public.</li>
+          <img id="#caring" class="reposi" src="./images/danger_zone.png" alt="...">
+          <li>Click on I want to make this repository public.</li>
+          <img id="#caring" class="reposi" src="./images/make_public.png" alt="...">
+          <li>Click on I have read and understand these effects</li>
+          <img id="#caring" class="reposi" src="./images/terms_public.png" alt="...">
+          <li>Click on Make this repository public</li>
+          <img id="#caring" class="reposi" src="./images/make_this_public.png" alt="...">
+          <li>Repository will become public.</li>
+        </ul>
+      </div>
+      <div id="cloning">
+        <h3>Cloning a Repository</h3>
+        <h5>What does it means?</h5>
+        <p>Cloning a repository pulls down a full copy of all the repository data that <a href="https://github.com/" target="_blank">GitHub</a>
+          </li> has at that point in time, including all versions of every file and folder for the project. You can push your changes to the remote repository on GitHub.com, or pull other people's changes from GitHub.com. </p>
+        <p>Command: git clone url(url of public repository you want to clone)</p>
+        <h5>Steps to clone a Repository:</h5>
+        <ul>
+          <li>Go to any Public Repository.</li>
+          <li>Click on Code.</li>
+          <li>Copy the URL.</li>
+          <img id="#caring" class="reposi" src="./images/clone_repo.png" alt="...">
+          <li>Open the folder in terminal where you want to make Clone.</li>
+          <img id="#caring" class="reposi" src="./images/git_clone.png" alt="...">
+          <li>Repository will get Cloned in your directory.</li>
+          <img id="#caring" class="reposi" src="./images/cloned_repo.png" alt="...">
+        </ul>
+      </div>
+      <div id="cloning">
+        <h3>Cloning a Repository</h3>
+        <h5>What does it means?</h5>
+        <p>Cloning a repository pulls down a full copy of all the repository data that <a href="https://github.com/" target="_blank">GitHub</a>
+          </li> has at that point in time, including all versions of every file and folder for the project. You can push your changes to the remote repository on GitHub.com, or pull other people's changes from GitHub.com. </p>
+        <p>Command: git clone url(url of public repository you want to clone)</p>
+        <h5>Steps to clone a Repository:</h5>
+        <ul>
+          <li>Go to any Public Repository.</li>
+          <li>Click on Code.</li>
+          <li>Copy the URL.</li>
+          <img id="#caring" class="reposi" src="./images/clone_repo.png" alt="...">
+          <li>Open the folder in terminal where you want to make Clone.</li>
+          <img id="#caring" class="reposi" src="./images/git_clone.png" alt="...">
+          <li>Repository will get Cloned in your directory.</li>
+          <img id="#caring" class="reposi" src="./images/cloned_repo.png" alt="...">
+        </ul>
+      </div>
+      <div id="adding">
+        <h3>Initializing, Adding, Commit and check Status of files on GitHub</h3>
+        <h5>Creating Sample File:</h5>
+        <ul>
+          <li>Create a file "index.html".</li>
+          <li>Write basic HTML code in it.</li>
+          <img id="#caring" class="reposi" src="./images/index.png" alt="...">
+        </ul>
+        <h5>Initializing Repository:</h5>
+        <ul>
+          <li>First we initialize our repository.</li>
+          <p>Command: git init</p>
+          <img id="#caring" class="reposi" src="./images/git_init.png" alt="...">
+          <li>.git folder will get created in our directory which is hidden. You can view it by changing settings to display all files.</li>
+        </ul>
+        <h5>Checking git status:</h5>
+        <ul>
+          <li>You can check git status by this command:</li>
+          <p>git status</p>
+          <img id="#caring" class="reposi" src="./images/git_status.png" alt="...">
+        </ul>
+        <h3>Adding Files:</h3>
+        <ul>
+          <li> Initially the file will be an untracked file. </li>
+          <li>When we add the file it will go to the stagged area.</li>
+          <li> We can add the files/directories by using following methods: <ul>
+              <li>By using name of file/folder: </li>
+              <p>Commmand : git add practice.html </p>
+              <li>By using . symbol to add all files/folders: </li>
+              <p> Command : git add .</p>
+              <li>By using * symbol to add all files based on the specified extension:</li>
+              <p> Command : git add *.html </p>
+              <img id="#caring" class="reposi" src="./images/git_add_..png" alt="...">
+            </ul>
+          </li>
+        </ul>
+        <h3>Commiting added files:</h3>
+        <ul>
+          <li>You can commit the files in two ways: <ul>
+              <li>Commits with a one-line message:</li>
+              <p>git commit -m "Message"</p>
+              <li>It opens the editor to type a message:</li>
+              <p>git commit</p>
+              <img id="#caring" class="reposi" src="./images/git_commit.png" alt="...">
+            </ul>
+          </li>
+        </ul>
+        <h3>Setting Remote URL:</h3>
+        <ul>
+          <li>Set the remote url where your code will push.</li>
+          <li>That URL could be your repository on GitHub, or another user's fork, or even on a completely different server.</li>
+          <img id="#caring" class="reposi" src="./images/git_remote_url.png" alt="...">
+          <p>Command: git remote add origin REMOTE_URL</p>
+          <img id="#caring" class="reposi" src="./images/remote_url.png" alt="...">
+        </ul>
+        <h3>Pushing to online Repository:</h3>
+        <ul>
+          <li> You have to specify branch where you want to push your files/folders. </li>
+          <li>If you want to push in main branch type following command: </li>
+          <p>git push -u origin main</p>
+          <img id="#caring" class="reposi" src="./images/git_push_repo.png" alt="...">
+        </ul>
+      </div>
+      <div id="deleting">
+        <h3>Deleting file/folder from repository.</h3>
+        <ul>
+          <li> Use the following command to delete a file from repository </li>
+          <p>rm index.html</p>
+          <img id="#caring" class="reposi" src="./images/remove_index.png" alt="...">
+          <li>This command delete the file from your disk folder but not from the remote one. </li>
+          <img id="#caring" class="reposi" src="./images/not_remove_from.png" alt="...">
+          <li> To delete the file from the remote repository commit the changes and then push to remote repository. </li>
+          <img id="#caring" class="reposi" src="./images/remove_from.png" alt="...">
+          <li> Now File from Remote Repository is also deleted. </li>
+          <img id="#caring" class="reposi" src="./images/remove_from_remote.png" alt="...">
+        </ul>
+      </div>
+
+      <div id="renaming">
+        <h3>Renaming file/folder from repository.</h3>
+        <ul>
+          <li> Use the following command to rename a file/folder in repository </li>
+          <p>mv oldNname newName</p>
+          <img id="#caring" class="reposi" src="./images/rename_index.png" alt="...">
+          <li>This command rename the file from your disk folder but not from the remote one. </li>
+          <img id="#caring" class="reposi" src="./images/not_remove_from.png" alt="...">
+          <li> To rename the file from the remote repository commit the changes and then push to remote repository. </li>
+          <img id="#caring" class="reposi" src="./images/rename_from.png" alt="...">
+          <li> Now File from Remote Repository is also renamed. </li>
+          <img id="#caring" class="reposi" src="./images/rename_from_remote.png" alt="...">
+
+          </ul>
+      </div>
+    </div>
+  </body>
 </html>
