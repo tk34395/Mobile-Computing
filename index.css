@@ -36,7 +36,7 @@ ul > li > a {
 
 ol > li > a:hover,
 ul > li > a:hover {
-  color: #142441;
+  color: white;
 }
 
 .git-intro {
@@ -49,4 +49,5 @@ ul > li > a:hover {
   padding: 10px 20px;
   padding-bottom: 0px;
   background-color: #dbe6f7ce;
+  margin-bottom: 15px;
 }
