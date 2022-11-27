@@ -4,4 +4,15 @@
 .nav-title {
   color: #1e1f26;
   font-weight: 500;
+  font-size: x-large !important;
+}
+.web-body {
+  background-color: #d0e1f9;
+  background: #d0e1f9;
+  padding-left: 50px;
+}
+
+h2 {
+  text-align: center;
+  color: #213962;
 }
