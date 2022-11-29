@@ -19,7 +19,8 @@ h2 {
 
 h3,
 h5,
-h4 {
+h4,
+h6 {
   color: #213962;
 }
 
@@ -32,7 +33,12 @@ h4 {
 #adding,
 #deleting,
 #branching,
-#renaming {
+#renaming,
+#deleting,
+#merging,
+#pull,
+#fork,
+#livepages {
   margin-top: 25px;
 }
 
