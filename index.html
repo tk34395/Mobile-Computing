@@ -381,9 +381,58 @@
                             <p>git merge branchname</p>
                             <li> If you are in main branch, it will merge other branch to main branch</li>
                             <img id="#caring" class="reposi" src="./images/merge1.png" alt="...">
+                            </ul>
+                            </div>
+
+                <div id="mergeconflict" class="col-lg-10">
+                    <h3>Merge Conflict</h3>
+                    <h5>What is Merge Conflict?</h5>
+                    <p>Merge conflicts occur when changes are made to the same line
+                        of a file, or when one person
+                        edits a file and another person deletes the same file.</p>
+                    <h5>Understanding Merge Conflict</h5>
+                    <ul>
+                    <li>Create a new branch.</li>
+                    <li>Switch to new branch.</li>
+                    <li>Make changes in any file.
+                    </li>
+                    <li>Add and Commit changes.</li>
+                    <img id="#caring" class="reposi" src="./images/merge_c1.png" alt="...">
+                    
+                    <li>Now switch to main branch</li>
+                    <li>Make any change to same line you did in other branch.</li>
+                    <li>Add and Commit changes.</li>
+                    <img id="#caring" class="reposi" src="./images/merge_c5.png" alt="...">
+                    <li>Merge with newbranch.</li>
+                    <img id="#caring" class="reposi" src="./images/merge_c3.png" alt="...">
+                    
+                    <li>Merging failed because there is a conflict because a change occur on same line in both branches.
+                    </li>
+                    <li>Check git status.</li>
+                    <img id="#caring" class="reposi" src="./images/merge_c2.png" alt="...">
+                    
+                    <li>This confirms there is a conflict in index.html.
+                    So we need to fix that conflict. Open the Editor
+                    </li>
+                    <li>Select option according to what you want to do. 
+                    </li>
+                    <img id="#caring" class="reposi" src="./images/merge_c6.png" alt="...">
+                    <li>
+                    Now we can stage files and check the status 
+                    </li>
+                    <p>
+                    Git add .<br> 
+                    Git status 
+                    </p>
+                    <img id="#caring" class="reposi" src="./images/merge_2.png" alt="...">
+                    
+                    <li>The conflict has been fixed, and we can use commit to conclude the merge</li>
+                    <img id="#caring" class="reposi" src="./images/merge_c7.png" alt="...">
+
+
+
                     </ul>
             </div>
-
 
 
     </div>
