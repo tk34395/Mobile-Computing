@@ -1,5 +1,23 @@
-.nav {
+body {
+  margin: 0;
+  padding: 0;
+  font-size: larger;
+  background-color: #d0e1f9;
+}
+.navbar {
+  padding: 10px 30px;
   background-color: #4d648d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+ul > li {
+  list-style: "✧  ";
+}
+
+.nav-icon {
+  padding-right: 30px;
 }
 .nav-title {
   color: #1e1f26;
@@ -7,23 +25,33 @@
   font-size: x-large !important;
 }
 .web-body {
-  background-color: #d0e1f9;
-  background: #d0e1f9;
   padding: 15px 50px;
 }
 
-h2 {
-  text-align: center;
-  color: #213962;
-}
-
+h2,
 h3,
 h5,
 h4,
 h6 {
   color: #213962;
+  margin: 0;
+  margin-bottom: 10px;
 }
 
+h3 {
+  font-size: 1.7em;
+}
+h4 {
+  font-size: 1.4em;
+}
+h5 {
+  font-size: 1.2em;
+}
+h6 {
+  font-size: 1.1em;
+}
+
+#github,
 #repo,
 #account,
 #publicrepo,
