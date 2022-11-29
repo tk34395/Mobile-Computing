@@ -86,7 +86,7 @@ p > a {
 
 ol > li > a:hover,
 ul > li > a:hover {
-  color: white;
+  color: olivedrab;
 }
 
 .git-toc {
@@ -103,4 +103,8 @@ ul > li > a:hover {
 }
 p {
   padding-left: 20px;
+}
+
+a:active {
+  color: #4d648d;
 }
