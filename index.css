@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-size: larger;
   background-color: #d0e1f9;
+  font-family: sans-serif;
 }
 .navbar {
   padding: 10px 30px;
@@ -40,6 +41,7 @@ h6 {
 
 h3 {
   font-size: 1.7em;
+  margin-top: 10px;
 }
 h4 {
   font-size: 1.4em;
@@ -107,4 +109,13 @@ p {
 
 a:active {
   color: #4d648d;
+}
+
+.footer {
+  height: 40px;
+  background-color: #4d648d;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #d0e1f9;
 }
